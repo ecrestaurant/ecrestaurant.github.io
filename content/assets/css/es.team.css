@@ -1,0 +1,121 @@
+/* 
+
+-------------------------------------------------------------
+
+THE TEAM
+ 
+*/
+
+.Our-Story {
+font-size:20px;
+padding-top:75px;
+padding-bottom:100px;
+}
+
+#the-team { border-bottom:1px solid #e2e2e2; line-height:24px; }
+
+#the-team h2 { font-family:'Open Sans Condensed', sans-serif; font-size:60px; line-height:60px; margin:0px; }
+
+#the-team h2 span { color:#9d9d9d; font-family:'Sanchez', sans-serif; display:block; font-weight:normal; font-size:26px; line-height:46px; }
+
+#team-seagull1 { width:100px; height:277px; position:absolute; z-index:10; top:-155px; left:0%; }
+
+#team-seagull2 { width:108px; height:242px; position:absolute; z-index:10; top:-155px; left:30%; }
+
+.team-block { border-bottom:1px solid #e2e2e2; }
+
+.team-left { width:48%; float:left; }
+
+.team-right { width:48%; float:right; }
+
+.team-text { padding:70px 0px; }
+
+.team-image { 
+padding-top:25px;
+border-radius: 200px
+}
+
+.team-dribbble { padding-left:25px; background:url(../img/icon-dribbble.png) top left no-repeat; line-height:23px; display:inline-block; }
+
+/* team quote slider */
+
+#the-team .quote-slider { height:173px; }
+
+#the-team .quote-slider .slide-text span.slide-fact { line-height:24px; color:#252525; font-size:18px; }
+
+
+
+/* 
+
+-------------------------------------------------------------
+
+THE OTHER GUYS
+ 
+*/
+
+#otherguys { padding-bottom:60px; }
+
+.otherguys-block { width:20%; float:left; text-align:center; font-size:18px; line-height:18px; }
+
+.otherguys-block span { font-size:14px; color:#aaaaaa; line-height:14px; }
+
+
+
+/* 
+
+-------------------------------------------------------------
+
+TEAM PAGE RESPONSIVE VIEWS
+
+*/
+
+
+/* tablet landscape view */
+
+@media (max-width: 1150px) {
+
+	/* the team */
+
+	#the-team h2 { font-size:50px; line-height:50px; }
+
+	#the-team h2 span { font-size:20px; line-height:40px; }
+
+}
+
+
+/* tablet portrait view */
+
+@media (max-width: 960px) {
+
+	/* the office */
+
+	#theoffice { display:none; }
+
+	#team-seagull2, #team-seagull1 { top:-180px; }
+
+}
+
+
+/* phone view */
+
+@media (max-width: 767px) {
+
+	/* team */
+
+	.team-left, .team-right { float:none; width:100%; }
+
+	.team-image { padding:0px; }
+
+	.team-text { padding:10px; padding-bottom:30px; }
+
+	#team-seagull2, #team-seagull1 { display:none; }
+
+	/* quote slider */
+
+	#the-team .quote-slider .slide-text span.slide-fact { line-height:20px; color:#252525; font-size:14px; }
+
+	/* other guys */
+
+	#otherguys { display:none; }
+
+}
